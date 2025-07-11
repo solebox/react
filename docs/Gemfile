@@ -4,10 +4,10 @@ gem 'rake'
 
 # jekyll, which builds it all
 # 3.0 includes sass processing
-gem 'jekyll', '~>3.1'
+gem 'jekyll', '~> 3.2', '>= 3.2.0'
 
 # Jekyll extensions
-gem 'jekyll-redirect-from'
+gem 'jekyll-redirect-from', '>= 0.12.0'
 gem 'jekyll-paginate'
 
 # JSON
@@ -17,7 +17,7 @@ gem 'json'
 gem 'rb-fsevent'
 
 # For markdown header cleanup
-gem 'sanitize', '~>2.0'
+gem 'sanitize', '~> 2.1', '>= 2.1.1'
 
 # Markdown
 gem 'redcarpet'
